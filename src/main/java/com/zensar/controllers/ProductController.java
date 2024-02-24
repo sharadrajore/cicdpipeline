@@ -37,7 +37,7 @@ public class ProductController {
 	// @RequestMapping(value="/", method=RequestMethod.GET)
 	@GetMapping
 	public List<Product> getProducts() {
-		System.out.println("Hello, I am in getProducts");
+		//System.out.println("Hello, I am in getProducts");
 		return productService.getProducts(); // json
 	}
 
